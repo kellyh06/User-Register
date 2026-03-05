@@ -47,7 +47,7 @@ Jest documentation:
    * Lisa coverage info
    * Lisa testide jooksuaja info
 
-### Ülesanne 1 tulemus (2026-03-01)
+### Ülesanne 1 tulemus (2026-03-05)
 
 Käivitatud käsk: `npm.cmd test` (Windows PowerShell keskkonnas)
 
@@ -66,3 +66,19 @@ Käivitatud käsk: `npm.cmd test` (Windows PowerShell keskkonnas)
    * Lisa coverage info
    * Lisa testide jooksuaja info
    * Võrdle jooksumisaega (Ülesanne 1 vs Ülesanne 2)
+
+### Ülesanne 2 tulemus (2026-03-05)
+
+Käivitatud käsk: `npm.cmd test -- app.mock.test.js` (Windows PowerShell keskkonnas)
+
+- Test Suites: **1 passed, 1 total**
+- Tests: **4 passed, 4 total**
+- Coverage: **100%** (Statements, Branches, Functions, Lines)
+- Runtime:
+   - `Time: 1.332 s` (kogu testijooks)
+
+### Jooksuaja võrdlus
+
+- Ülesanne 1 (`npm.cmd test`): **11.477 s**
+- Ülesanne 2 (`npm.cmd test -- app.mock.test.js`): **1.332 s**
+- Vahe: **10.145 s** (Ülesanne 2 on ~**88.4%** kiirem)
