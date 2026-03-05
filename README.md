@@ -47,6 +47,17 @@ Jest documentation:
    * Lisa coverage info
    * Lisa testide jooksuaja info
 
+### Ülesanne 1 tulemus (2026-03-01)
+
+Käivitatud käsk: `npm.cmd test` (Windows PowerShell keskkonnas)
+
+- Test Suites: **4 passed, 4 total**
+- Tests: **26 passed, 26 total**
+- Coverage: **100%** (Statements, Branches, Functions, Lines)
+- Runtime:
+   - `./app.test.js (8.954 s)`
+   - `Time: 11.477 s` (kogu testijooks)
+
 ## Ülesanne 2: Mocked API testid
 * Mocki emaili validatsioon kasutades `jest.mock()`
 * Kirjuta samad testid `app.mock.test.js` faili
